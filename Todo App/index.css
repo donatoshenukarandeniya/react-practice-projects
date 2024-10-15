@@ -1,0 +1,36 @@
+/* Styling the entire ToDo list */
+.todolist {
+    background-color: #f4f4f4;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling individual ToDo items */
+.todoitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling the checkbox */
+.todoitem input[type="checkbox"] {
+    margin-right: 15px;
+    transform: scale(1.5);
+}
+
+/* Styling the text of ToDo items */
+.todoitem p {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Adding some hover effect on ToDo items */
+.todoitem:hover {
+    background-color: #eaeaea;
+    transition: background-color 0.3s ease;
+}

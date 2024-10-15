@@ -1,0 +1,41 @@
+.body{
+    margin: 0;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.main{
+    height: 100px;
+    background-color: antiquewhite;
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.footer{
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    margin-bottom: auto;
+}
